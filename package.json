@@ -1,0 +1,15 @@
+{
+  "name": "mousedance",
+  "version": "1.0.0",
+  "description": "그린스크린 쥐가 바탕화면에서 춤추고, 타자를 칠수록 빨라지는 macOS 데스크톱 펫",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^33.2.0"
+  },
+  "dependencies": {
+    "uiohook-napi": "^1.5.4"
+  }
+}

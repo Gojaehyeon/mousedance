@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      overflow: hidden;
+      cursor: default;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    #stage { width: 100vw; height: 100vh; display: block; }
+    video { display: none; }
+  </style>
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <video id="src" muted loop playsinline></video>
+  <script src="renderer.js"></script>
+</body>
+</html>
